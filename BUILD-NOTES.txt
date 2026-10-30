@@ -1,0 +1,13 @@
+Minecraft 1.21.11 configuration notes
+
+This archive updates the generic Meteor addon template to target Minecraft 1.21.11:
+- Java 21
+- Minecraft 1.21.11
+- Meteor 1.21.11-SNAPSHOT
+- Fabric Loader 0.18.1
+- Fabric Loom 1.14-SNAPSHOT with the remap plugin
+- Gradle 8.14.3
+
+This is a generic addon template. It does not implement packet flooding or server-crashing functionality.
+The dependency versions are based on Fabric's 1.21.11 guidance and the Meteor addon version naming.
+Run ./gradlew clean build in a network-enabled environment to verify dependency resolution and compilation.
